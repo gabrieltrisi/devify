@@ -249,7 +249,7 @@ export default function Home() {
           text='Cada projeto Devify nasce de uma necessidade prática e evolui para um produto digital com módulos, automação e inteligência.'
         />
 
-        <div className='mt-14 grid gap-6 md:grid-cols-3'>
+        <div className='mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-4'>
           <Project
             tag='Gestão de RH'
             title='ELO System'
@@ -269,6 +269,13 @@ export default function Home() {
             title='ShapeX'
             text='Plataforma com assistente virtual para cada paciente, evolução individual e insights inteligentes.'
             href='/projetos/shapex'
+          />
+
+          <Project
+            tag='Marketing Intelligence'
+            title='Campaign Intelligence'
+            text='Plataforma inteligente para análise de campanhas, lucro real, ROAS automatizado e métricas estratégicas em tempo real.'
+            href='/projetos/campaign-intelligence'
           />
         </div>
       </section>
@@ -321,6 +328,8 @@ export default function Home() {
           </div>
         </motion.div>
       </section>
+
+      <Footer />
     </main>
   );
 }
