@@ -11,6 +11,11 @@
 
 🔗 **Ao vivo:** https://devify-gray.vercel.app
 
+
+<p align="center">
+  <a href="https://devify-gray.vercel.app"><img width="100%" src="docs/preview.gif" alt="Landing da Devify" /></a>
+</p>
+
 ---
 
 ## ✨ Sobre
